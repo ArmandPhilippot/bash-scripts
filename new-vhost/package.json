@@ -1,0 +1,29 @@
+{
+  "name": "new-vhost",
+  "description": "A script to quickly create a new vhost.",
+  "keywords": [
+    "virtual-host",
+    "vhost",
+    "apache"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Armand Philippot",
+    "url": "https://www.armandphilippot.com"
+  },
+  "homepage": "https://github.com/ArmandPhilippot/bash-scripts/tree/master/new-vhost#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandPhilippot/bash-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandPhilippot/bash-scripts/issues"
+  },
+  "scripts": {
+    "release": "standard-version -a"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.0"
+  }
+}

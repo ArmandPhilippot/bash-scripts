@@ -1,0 +1,28 @@
+{
+  "name": "bash-scripts",
+  "description": "A collection of Bash scripts.",
+  "keywords": [
+    "shell",
+    "bash",
+    "script"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Armand Philippot",
+    "url": "https://www.armandphilippot.com"
+  },
+  "homepage": "https://github.com/ArmandPhilippot/bash-scripts/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandPhilippot/bash-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandPhilippot/bash-scripts/issues"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0"
+  }
+}
