@@ -21,9 +21,16 @@
     "url": "https://github.com/ArmandPhilippot/bash-scripts/issues"
   },
   "scripts": {
+    "bump": "replace-in-files --regex='_version=\"\\d+\\.\\d+\\.\\d+\"' --replacement='_version=\"'$npm_package_version'\"' new-vhost",
     "release": "standard-version -a"
   },
   "devDependencies": {
+    "replace-in-files-cli": "^1.0.0",
     "standard-version": "^9.3.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "npm run bump && git add -A"
+    }
   }
 }
